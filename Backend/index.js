@@ -21,7 +21,7 @@ require('dotenv').config()
 require("./connection/cons")
 
 app.listen(process.env.PORT,()=>{
-    console.log(`hii mera db process kaam kar raha  ${process.env.PORT}`);
+    console.log(`hii mera db process kaam kar raha hai to kya karu  ${process.env.PORT}`);
 })
 app.use(ActivityRoute);
 app.use(UserRoute);
